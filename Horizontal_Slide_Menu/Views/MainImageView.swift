@@ -14,7 +14,7 @@ class MainImageView: UIImageView {
         super.init(image: image)
         
         translatesAutoresizingMaskIntoConstraints = false
-        backgroundColor = .systemGroupedBackground
+        backgroundColor = #colorLiteral(red: 0.7964829803, green: 0.7717085481, blue: 0.7289099097, alpha: 1)
         layer.cornerRadius = 10
         contentMode = .scaleAspectFit
     }
